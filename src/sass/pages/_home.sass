@@ -1,0 +1,31 @@
+.section-about
+    padding-top: 8rem
+    @include respond(tab-port)
+        margin-bottom: 40rem
+
+.section-advantages
+    padding: 29rem 0
+    background: linear-gradient(90deg, rgba($color-brown, .7), rgba($color-black, .7)), url(../img/advantages-bg.jpg) center / cover no-repeat
+    clip-path: polygon(0 5%, 100% 15%, 100% 95%, 0 85%)
+    @include respond(tab-land)
+        padding: 15rem 0
+    @include respond(tab-port)
+        padding: 25rem 0
+    @media (min-resolution: 192dpi) and (min-width: 670px), (min-width: 1340px)
+        background: linear-gradient(90deg, rgba($color-brown, .7), rgba($color-black, .7)), url(../img/advantages-bg-big.jpg) center / cover no-repeat
+
+    @media (max-width: 670px)
+        background: linear-gradient(90deg, rgba($color-brown, .7), rgba($color-black, .7)), url(../img/advantages-bg-small.jpg) center / cover no-repeat
+
+.section-reviews
+    position: relative
+    padding: 8rem 0rem
+
+.section-book
+    padding: 10rem
+    background: linear-gradient(90deg, $color-brown, $color-brown-dark)
+    @include respond(tab-port)
+        padding: 4rem
+
+.footer
+    background: #333333

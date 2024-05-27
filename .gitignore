@@ -1,0 +1,6 @@
+/node_modules/
+/dist/*
+!/dist/css/
+/dist/css/*
+!/dist/css/icon-font.css
+!/dist/css/fonts/
